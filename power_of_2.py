@@ -3,4 +3,7 @@ def power_of_two (n):
 
 n = int(input('Ingrese un numero: '))
 
-print(power_of_two(n))
+if power_of_two(n):
+    print(f'{n} es una potencia de 2')
+else:
+    print(f'{n} no es una potencia de 2')
